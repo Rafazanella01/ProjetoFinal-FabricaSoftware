@@ -4,7 +4,7 @@ import platform
 
 def run_django_server():
     # Caminho relativo para o diretório do projeto Django
-    project_directory = os.path.join(os.path.dirname(__file__), 'PSF_GESTAO_FINANCEIRA')
+    project_directory = os.path.join(os.path.dirname(__file__), 'src\PSF_GESTAO_FINANCEIRA')
     manage_py = os.path.join(project_directory, 'manage.py')
     
     # Navegar para o diretório do projeto
